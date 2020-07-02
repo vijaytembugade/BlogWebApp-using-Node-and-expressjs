@@ -4,11 +4,12 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "Start" : "cross-env NODE_ENV=productionnode app",
+    "dev": "cross-env NODE-ENV=development nodemon app"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vijaytembugade/StoryBookApp.git"
+    "url": "https://github.com/vijaytembugade/NodeApp.git"
   },
   "author": "Vijay Tembugade",
   "license": "MIT",
@@ -28,5 +29,9 @@
     "morgan": "^1.10.0",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.4"
   }
 }
