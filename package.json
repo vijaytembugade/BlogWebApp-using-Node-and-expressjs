@@ -1,0 +1,19 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vijaytembugade/StoryBookApp.git"
+  },
+  "author": "Vijay Tembugade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vijaytembugade/StoryBookApp/issues"
+  },
+  "homepage": "https://github.com/vijaytembugade/StoryBookApp#readme"
+}
