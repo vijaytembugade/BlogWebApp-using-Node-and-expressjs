@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "Start" : "cross-env NODE_ENV=productionnode app",
-    "dev": "cross-env NODE-ENV=development nodemon app"
+    "start" : "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app"
   },
   "repository": {
     "type": "git",
